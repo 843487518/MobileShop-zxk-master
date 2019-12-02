@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/warframe">
+    <TextView
+        android:text="HOME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:id="@+id/personal_my_order"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/personal_list_item_bg_selector"
+        android:clickable="true"
+        android:paddingLeft="25dp">
+
+        <ImageView
+            android:id="@+id/my_order_image"
+            android:layout_width="100.0dp"
+            android:layout_height="100.0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/cainixihuan"
+            android:padding="50dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/my_order_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/my_order_image"
+            android:paddingLeft="50.0dp"
+            android:text="猜你喜欢"
+            android:textColor="@color/black"
+            android:textSize="45.0sp"/>
+
+        <ImageView
+            android:id="@+id/my_order_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="20.0dp"
+            android:src="@drawable/android_list_idex"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#cccccc" />
+
+    <RelativeLayout
+        android:id="@+id/my_collect"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/personal_list_item_bg_selector"
+        android:clickable="true"
+        android:paddingLeft="25.0dp">
+
+        <ImageView
+            android:id="@+id/my_collect_image"
+            android:layout_width="100.0dp"
+            android:layout_height="100.0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/liulanjilu"
+            android:padding="50dp"/>
+
+        <TextView
+            android:id="@+id/my_collect_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/my_collect_image"
+            android:paddingLeft="50dp"
+            android:text="浏览记录"
+            android:textColor="@color/black"
+            android:textSize="45.0sp"/>
+
+        <ImageView
+            android:id="@+id/my_collect_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="20dp"
+            android:src="@drawable/android_list_idex"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#cccccc" />
+
+    <RelativeLayout
+        android:id="@+id/my_address"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/personal_list_item_bg_selector"
+        android:clickable="true"
+        android:paddingLeft="25dp">
+
+        <ImageView
+            android:id="@+id/my_address_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/zhekouzhuanqu"
+            android:padding="50dp"/>
+        <TextView
+            android:id="@+id/my_address_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/my_address_image"
+            android:paddingLeft="50dp"
+            android:text="折扣专区"
+            android:textColor="@color/black"
+            android:textSize="45sp"/>
+        <ImageView
+            android:id="@+id/my_address_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="20dp"
+            android:src="@drawable/android_list_idex"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#cccccc" />
+    <RelativeLayout
+        android:id="@+id/my_account"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/personal_list_item_bg_selector"
+        android:clickable="true"
+        android:paddingLeft="25dp">
+        <ImageView
+            android:id="@+id/my_accout_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/chaoliushiishang"
+            android:padding="50dp"/>
+        <TextView
+            android:id="@+id/my_account_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/my_accout_image"
+            android:paddingLeft="50dp"
+            android:text="潮流时尚"
+            android:textColor="@color/black"
+            android:textSize="45sp"/>
+        <ImageView
+            android:id="@+id/my_accout_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="20dp"
+            android:src="@drawable/android_list_idex"/>
+    </RelativeLayout>
+</LinearLayout>
