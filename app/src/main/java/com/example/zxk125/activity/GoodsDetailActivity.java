@@ -12,6 +12,7 @@ import butterknife.OnClick;
 public class GoodsDetailActivity extends BaseActivity {
     @BindView(R.id.tv_title)
     TextView tvTitle;
+private int goods_id2;
     private int goods_id;
     private String goods_name;
 
