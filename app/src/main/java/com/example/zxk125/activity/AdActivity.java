@@ -15,7 +15,7 @@ import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
 
 
 public class AdActivity extends BaseActivity {
-
+	private TextView tv_skip2;
     private TextView tv_skip;
     @Override
     public int getContentViewId() {
